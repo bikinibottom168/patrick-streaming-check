@@ -1,0 +1,18 @@
+{
+    "name": "bikinibottom/video",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "amcody",
+            "email": "iamdeveloper.th@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bikinibottom\\Video\\": "src/"
+        }
+    }
+}
