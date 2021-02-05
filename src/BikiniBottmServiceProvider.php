@@ -1,6 +1,6 @@
 <?php
 
-namespace bikinibottom;
+namespace Bikinibottom\Video;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,5 +24,10 @@ class BikiniBottmServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+    }
+
+    public function provides()
+    {
+        return [Video::class];
     }
 }

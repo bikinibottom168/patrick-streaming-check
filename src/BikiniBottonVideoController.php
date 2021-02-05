@@ -1,6 +1,6 @@
 <?php
 
-namespace bikinibottom;
+namespace Bikinibottom\Video;
 
 use Illuminate\Http\Request;
 
