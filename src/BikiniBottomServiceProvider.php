@@ -3,6 +3,7 @@
 namespace Bikinibottom\Video;
 
 use Illuminate\Support\ServiceProvider;
+use Bikinibottom\Video;
 
 class BikiniBottomServiceProvider extends ServiceProvider
 {
@@ -13,7 +14,7 @@ class BikiniBottomServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('bikinibottom\video\ฺBikiniBottomVideoController');
+        $this->app->alias(Video::class, 'Video');
     }
 
     /**

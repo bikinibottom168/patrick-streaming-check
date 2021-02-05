@@ -19,7 +19,10 @@
         "laravel" : {
             "providers" : [
                 "Bikinibottom\\Video\\BikiniBottomServiceProvider"
-            ]
+            ],
+            "aliases": {
+                "Video": "Bikinibottom\\Video\\Facades\\MediaConvertFacade"
+            }
         }
     }
 }
