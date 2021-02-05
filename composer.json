@@ -10,6 +10,13 @@
     "require": {
         "guzzlehttp/guzzle": "6.*"
     },
+    "extra" : {
+        "laravel" : {
+            "providers" : [
+                "patrick\\bikinibottom\\BikiniBottomServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "Bikinibottom\\Video\\": "src/"
