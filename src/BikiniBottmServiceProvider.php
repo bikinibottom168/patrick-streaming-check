@@ -1,6 +1,6 @@
 <?php
 
-namespace patrick\bikinibottom;
+namespace bikinibottom;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +13,7 @@ class BikiniBottmServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('patrick\bikinibottom\ฺBikiniBottomVideoController');
+        $this->app->make('bikinibottom\ฺBikiniBottomVideoController');
     }
 
     /**

@@ -1,6 +1,6 @@
 <?php
 
-namespace Patrick\Bikinibottom;
+namespace bikinibottom;
 
 use Illuminate\Http\Request;
 
