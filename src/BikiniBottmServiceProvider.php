@@ -13,7 +13,7 @@ class BikiniBottmServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('bikinibottom\ฺBikiniBottomVideoController');
+        $this->app->make('bikinibottom\video\src\ฺBikiniBottomVideoController');
     }
 
     /**
