@@ -21,7 +21,7 @@
                 "Bikinibottom\\Video\\BikiniBottomServiceProvider"
             ],
             "aliases": {
-                "Video": "Bikinibottom\\Video\\Facades\\MediaConvertFacade"
+                "Video": "Bikinibottom\\Video\\Facades\\Video"
             }
         }
     }
