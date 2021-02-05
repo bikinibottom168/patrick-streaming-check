@@ -4,7 +4,7 @@ namespace Bikinibottom\Video;
 
 use Illuminate\Support\ServiceProvider;
 
-class BikiniBottmServiceProvider extends ServiceProvider
+class BikiniBottomServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
