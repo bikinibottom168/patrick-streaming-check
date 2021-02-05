@@ -13,7 +13,7 @@
     "extra" : {
         "laravel" : {
             "providers" : [
-                "patrick\\bikinibottom\\BikiniBottomServiceProvider"
+                "\\bikinibottom\\video\\src\\BikiniBottomServiceProvider"
             ]
         }
     },
